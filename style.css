@@ -54,7 +54,7 @@ html{
     border-radius: 9px;
 }
 .background{
-    background: rgba(0,0,0, 0.7) url('/image/image4.jpg');
+    background: rgba(0,0,0, 0.7) url('image/image4.jpg');
     background-size: cover;
     background-blend-mode: darken;
     
@@ -63,7 +63,7 @@ html{
    height:100vh;
 }
 .background2{
-  background: rgba(0,0,0, 0.7) url('/image/image6.jpg');
+  background: rgba(0,0,0, 0.7) url('image/image6.jpg');
   background-size: cover;
   background-blend-mode: darken;
   
@@ -116,6 +116,16 @@ html{
     font-size: 10px;
     background: none;
     color: white;
+}
+.formbtn{
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 8px 20px;
+  margin: 7px 0;
+  font-size: 16px;
+  background: none;
+  color:black;
+
 }
 .heading{
     text-align: center;
@@ -256,9 +266,7 @@ html{
     color:brown;
 }
   
-  .teacher .box .share a:hover{
-    background:var(--violet);
-}
+  
 
 .price{
     display: flex;
@@ -403,7 +411,8 @@ html{
     width: 100%;
     padding: 2px;
     margin: 0.7rem 0px;
-    font-size: 21px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     border: 2px solid black;
     background-color: #bebebe;
     border-radius: 0.5rem;
@@ -412,12 +421,6 @@ html{
 
 
 } 
-
-.contact form .inputBox input:focus,
-.contact form .box:focus, 
-.contact form textarea:focus{
-  border-color: var(--pink);
-}
 
 .contact form .inputBox input{
   width:49%;
